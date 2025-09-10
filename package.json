@@ -1,0 +1,35 @@
+{
+  "name": "homebridge-wled-v2",
+  "version": "1.3.0",
+  "description": "Homebridge plugin to control WLED devices with real-time WebSocket sync, auto fallback, and debug logging",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "wled",
+    "lighting",
+    "websocket"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "homebridge": ">=2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "ws": "^8.18.0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/homebridge-wled-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/homebridge-wled-v2/issues"
+  },
+  "homepage": "https://github.com/yourusername/homebridge-wled-v2#readme",
+  "displayName": "Homebridge WLED v2",
+  "displayCategory": "Lighting",
+  "icon": "homebridge-ui/icon.png"
+}

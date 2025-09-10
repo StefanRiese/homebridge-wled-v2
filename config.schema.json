@@ -1,0 +1,29 @@
+{
+  "pluginAlias": "WLED",
+  "pluginType": "accessory",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Accessory Name",
+        "type": "string",
+        "required": true,
+        "default": "WLED Light"
+      },
+      "ip": {
+        "title": "WLED Device IP",
+        "type": "string",
+        "required": true,
+        "format": "ipv4",
+        "placeholder": "192.168.1.50"
+      },
+      "debug": {
+        "title": "Enable Debug Logging",
+        "type": "boolean",
+        "default": false,
+        "description": "Enable verbose debug logs for troubleshooting (WebSocket messages, HTTP requests, retries)."
+      }
+    }
+  }
+}

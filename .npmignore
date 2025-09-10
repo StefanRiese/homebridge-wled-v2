@@ -1,0 +1,27 @@
+# Ignore git and local files
+.git
+.gitignore
+
+# Ignore npm logs and temp files
+npm-debug.log*
+*.tgz
+
+# Ignore local node modules
+node_modules
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore development files
+*.md     # Only include README.md if you want it (we can keep it in package.json "files")
+tests/
+*.test.js
+*.spec.js
+
+# Ignore build outputs (if any)
+dist/
+build/
+
+# Keep your actual plugin files: index.js, config.schema.json, homebridge-ui/
+# package.json is automatically included
